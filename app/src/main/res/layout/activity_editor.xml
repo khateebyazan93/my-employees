@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingLeft="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<!-- Contain 1 TextView && 2 EditText-->
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<!-- Name label-->
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text="@string/name"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- first name -->
+            <EditText
+                android:id="@+id/first_name_edit_text"
+                android:hint="@string/first_name_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- last name -->
+            <EditText
+                android:id="@+id/last_name_edit_text"
+                android:hint="@string/last_name_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Contain gender(TextView && Spinner)  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- gender label -->
+    <TextView
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_marginRight="25dp"
+        android:text="@string/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <!-- gender Spinner-->
+        <Spinner
+            android:id="@+id/gender_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- mobile number label -->
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:textSize="19sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_number"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/mobile_number_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- position label -->
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"
+            android:text="@string/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/position_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

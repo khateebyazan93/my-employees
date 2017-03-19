@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Employees</string>
+    <string name="name">Name :</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="gender">Gender :</string>
+    <string name="mobile_number">Mobile Number :</string>
+    <string name="position">Position :</string>
+    <string name="your_employees_list_is_empty">Your Employees list is Empty</string>
+    <string name="start_by_adding_your_employees">Start by Add your Employees</string>
+</resources>
