@@ -205,7 +205,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
                 TextUtils.isEmpty(employeeMobileNumber) || TextUtils.isEmpty(employeePosition))&&
                 mEmployeeGender == EmployeeEntry.GENDER_UNKNOWN) {
 
-Toast.makeText(this,"some filed empty",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Some Fields Empty",Toast.LENGTH_SHORT).show();
             return;
         }
 
